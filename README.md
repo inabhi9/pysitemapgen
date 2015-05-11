@@ -26,9 +26,9 @@ To create a sitemap
 
     from pysitemapgen import Sitemap
         
-        sitemap = SitemapIndex('sitemap-0.xml')
-        sitemap.add('http://example.com/page/1')
-        sitemap.save()
+    sitemap = Sitemap('sitemap-0.xml')
+    sitemap.add('http://example.com/page/1')
+    sitemap.save()
 
 
 ## To Do:
